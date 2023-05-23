@@ -3,7 +3,7 @@ using SievalAssignment.Models;
 
 namespace SievalAssignment.DAL
 {
-    public class ArticlesDataAccessLayer : IArticlesDataAccessLayer
+    public class ArticlesDataAccessLayer : IArticlesDataAccessLayer // TODO write unit tests for this class, it's a bit difficult since this class interacts 
     {
         private readonly AssignmentContext _context;
 

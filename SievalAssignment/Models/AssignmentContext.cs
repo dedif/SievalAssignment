@@ -2,7 +2,7 @@
 
 namespace SievalAssignment.Models
 {
-    public class AssignmentContext : DbContext // TODO unit tests for this class
+    public class AssignmentContext : DbContext
     {
         public DbSet<Article> Articles { get; set; }
 
